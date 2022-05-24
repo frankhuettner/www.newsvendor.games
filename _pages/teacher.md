@@ -10,10 +10,11 @@ nav: true
 - your students are capable of and have the time for **[installing Julia and Pluto and run the simulation](../play)**
 - you do not rely on customer service (**[feel free to ask questions anytime](https://github.com/frankhuettner/newsvendor/issues)**)
 
-**Otherwise**, let me recommend the excellent service by **[fathomd.com](https://www.fathomd.com/nvg)**.
+**Otherwise**, let me recommend the excellent service by **[fathomd.com](https://www.fathomd.com/nvg)**. There you further have the opportunity to let all students play simultaneously with the same random numbers in class. There setup time is also incredibly short. 
 
-#### What you get
-The following is available:
+
+#### What is in the repository?
+The following is available at **[https://github.com/frankhuettner/newsvendor](https://github.com/frankhuettner/newsvendor)** for download or cloning:
 - A notebook that contains the **[mini cases and preparatory questions](https://github.com/frankhuettner/newsvendor/blob/main/preparation/student_preparation.jl)**
 - A notebook that contains **[the game](https://github.com/frankhuettner/newsvendor/blob/main/game/newsvendorgame.jl)** 
 - A notebook that allows you to **[analyze the game results](https://github.com/frankhuettner/newsvendor/blob/main/debrief/game_results.jl)**. Here is a [DEMO](https://debrief.newsvendor.games/game_results.html) (class or player selection might not work or might be very slow; **[download the repo from GitHub](https://github.com/frankhuettner/newsvendor)** and try it locally to get a better impression.)
@@ -32,8 +33,8 @@ Note that the students can reset their play and repeat as often as they want. He
 1. Save the notebook for watching the game results on your disk (if you simply open it in Pluto from the web, then make sure to save it at a location that you can find on your computer; consider reloading the notebook after saving). **[Here](https://github.com/frankhuettner/newsvendor/tree/main/debrief/data)** you find some example data.
 2. Open the notebook in Pluto. 
 3. At the beginning, it tells you the location for where to store the TOML-files submitted by your students.
-4. Click on the ``Reload`` button. You can now select your class.
-5. In order to download a figure as a PNG file, use the camera button in the menue of the figure. For a better resolution, make a screenshots with your computer.
+4. Click on the <kbd>Reload</kbd>  button. You can now select your class.
+5. In order to download a figure as a PNG file, use the camera button in the menue of the figure. For a better image resolution, make a screenshots with your computer.
 
 **Solution:** 
 Open the notebook containing the solution. It offers useful graphs for your explanation.

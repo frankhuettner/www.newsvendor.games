@@ -5,13 +5,13 @@ title: 🧑‍🏫 teacher
 description: hints for teachers and a suggested teaching plan
 nav: true
 ---
-**Use this for your class if**
-- you are somewhat familiar with **[Julia and Pluto](https://www.youtube.com/watch?v=OOjKEgbt8AI)** (no coding is needed but you should know how to open a notebook)
-- you know how to download or clone repositories from GitHub
+**Use this game for your class if**
+- you are somewhat familiar with **[Julia and Pluto](https://www.youtube.com/watch?v=OOjKEgbt8AI)** (no coding is needed but you should know **[how to open a notebook](https://www.youtube.com/watch?v=OOjKEgbt8AI)**)
+- you know how to **[download](https://stackoverflow.com/a/6466993)** or **[clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** repositories from GitHub
 - your students are capable of and have the time for **[installing Julia and Pluto and run the simulation](../play)**
 - you do not rely on customer service (**[feel free to ask questions anytime](https://github.com/frankhuettner/newsvendor/issues)**)
 
-**Otherwise**, let me recommend the excellent service by **[fathomd.com](https://www.fathomd.com/nvg)**. Their simulation is all web-based and you do not need any prior knowledge. This also means that students do not need to install any software and you further have the opportunity to let all students play simultaneously with the same random numbers in class. The setup time is also incredibly short. 
+**Otherwise**, let me recommend the excellent service of **[fathomd.com](https://www.fathomd.com/nvg)**. Their game is all web-based and you do not need any technical knowledge. This also means that students do not need to install any software and you further have the opportunity to let all students play simultaneously with the same random numbers in the classroom.
 
 
 ### What is in the repository?
@@ -27,9 +27,9 @@ The following is available at **[https://github.com/frankhuettner/newsvendor](ht
 
 ##### Homework prior to class
 As part of this simulation, students will download Julia and install some packages on their computers. This means that each student will download about 1 GB of data so that it seems impractical to have this done in class. Hence, the following preparation.
-1. Ask your students to read the mini case and answer preparatory questions. 
-    - To this end, you can distribute the `newsvendor/preparation/student_preparation-Handout.pdf`
-    - Or let them load the corresponding notebook, using the following instructions:
+1. Ask your students to read the mini case and answer preparatory questions. To this end, 
+    - you can distribute the `newsvendor/preparation/student_preparation-Handout.pdf`, or
+    - let them load the corresponding notebook, using the following instructions:
         1. Download Julia **[from the official website](https://julialang.org/downloads/)** and install it with the standard settings.
         2. Copy the code below. 
         ```
@@ -75,7 +75,7 @@ To assist your preparation for the course, the following resources might be help
 In Pluto, open `newsvendor/debrief/game_results.jl`. 
 
 - At the beginning, it tells you the location for where to store the TOML-files submitted by your students. (You might need to click on the <kbd>Reload</kbd> button after adding your own data before you can select your class.)
-- Alternatively, you can work with two example data sets. 
+- Alternatively, you can work with two example data sets, which come with the repository. 
 
 You will now see the results of the play. In order to download a figure as a PNG file for your slides, use the camera button in the menue of the figure. For a better image resolution, make a screenshots with your computer.
 

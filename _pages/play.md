@@ -18,7 +18,7 @@ begin
   # Install Pluto
   import Pkg;	Pkg.add("Pluto")
   # Start Pluto and load the notebook
-  import Pluto; Pluto.run(notebook=nb)
+  import Pluto; Pluto.run(dismiss_update_notification=true, notebook=nb)
 end
  ```
 3. Start Julia (e.g. in the Windows Start Menu). The Julia REPL will appear: 

@@ -10,7 +10,8 @@ nav: true
  
 
 ##### 1. Download Julia **[from the official website](https://julialang.org/downloads/)** and install it with the standard settings
-
+ 
+ 
 ##### 2. Start Julia (e.g. in the Windows Start Menu)
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -38,7 +39,7 @@ end
 ##### 4. Paste the code into the Julia REPL 
    <div class="row justify-content-sm-center">
        <div class="col-sm-8 mt-3 mt-md-0">
-       Ctrl+V will not work. Instead, **rightclick into the Julia REPL window**. This will insert the code that you copied above. Then, hit the <kbd>Enter</kbd> key to execute the code.
+       Ctrl+V will not work. Instead, RIGHTCLICK into the Julia REPL window. This will insert the code that you copied above. Then, hit the <kbd>Enter</kbd> key to execute the code.
 
        </div>
        <div class="col-sm-4 mt-3 mt-md-0">

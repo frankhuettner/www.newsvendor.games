@@ -21,11 +21,18 @@ begin
   import Pluto; Pluto.run(dismiss_update_notification=true, notebook=nb)
 end
  ```
-3. Start Julia (e.g. in the Windows Start Menu). The Julia REPL will appear:    
-        {% include figure.html path="assets/img/julia-repl.png" title="example image" class="img-fluid rounded z-depth-1" %}
-4. Rightclick into the Julia REPL window. This will paste the code that you copied above. Hit the <kbd>Enter</kbd> key to execute the code.
-5. Now wait for 10 minutes. Julia will install Pluto and download the simulation. After about 5 minutes, it opens your browser and you see fragments of the simulation. It will install further packages and is finished once the animations stop. Get a ☕ or 🍵 or use your computer for something else while waiting (*do **not** close the Julia window*).
-6. Play the game. Download your score when you finished the game.
+3. Start Julia (e.g. in the Windows Start Menu). The Julia REPL will appear:   
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+    Rightclick into the Julia REPL window. This will paste the code that you copied above. Hit the <kbd>Enter</kbd> key to execute the code.
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/julia-repl.png" title="julia repl" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+4. Now wait for 10 minutes. Julia will install Pluto and download the simulation. After about 5 minutes, it opens your browser and you see fragments of the simulation. It will install further packages and is finished once the animations stop. Get a ☕ or 🍵 or use your computer for something else while waiting (*do **not** close the Julia window*).
+5. Play the game. Download your score when you finished the game.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/screenshot_download.png" title="example image" class="img-fluid rounded z-depth-1" %}

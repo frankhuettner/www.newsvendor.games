@@ -54,7 +54,7 @@ Julia will install Pluto and download the simulation.
 ##### 6. Play the game and download your score when you finished the game
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/screenshot_download.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/screenshot_download.png" title="example image" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
     When you're done (make sure having downloaded your score), you can close of Julia and the browser window.

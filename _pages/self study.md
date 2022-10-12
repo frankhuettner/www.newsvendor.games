@@ -3,7 +3,7 @@ layout: page
 permalink: /study/
 title: 📖 self study
 description: a guide to understand the problem and the solution
-nav: true
+nav: false
 ---
 
 1. Install Julia and Pluto and learn how to open a notebook in Pluto. Instructions are given in **[this video](https://www.youtube.com/watch?v=OOjKEgbt8AI)**.

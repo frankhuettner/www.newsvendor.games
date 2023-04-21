@@ -18,8 +18,3 @@ social: false  # includes social icons at the bottom of the page
 **Experience the [newsvendor's problem](https://en.wikipedia.org/wiki/Newsvendor_model)** and gain a better understanding of demand uncertainty by playing a game that runs within **[Pluto](https://github.com/fonsp/Pluto.jl)** for **[Julia](https://julialang.org)**.
 
 The game comes with a **[mini case](https://github.com/frankhuettner/newsvendor/blob/main/scenarios/cheers_1_story.md),** which puts you into the shoes of a patisserie owner. Every day, you have to make a choice about how many cakes 🍰🍥🎂 you want to produce. 
-     
-
-
-</b>     
-</p>     

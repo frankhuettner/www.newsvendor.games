@@ -18,8 +18,8 @@ nav: true
 The following is available at **[https://github.com/frankhuettner/newsvendor](https://github.com/frankhuettner/newsvendor)** for download or cloning:
 - A notebook that contains the **[mini cases and preparatory questions](https://github.com/frankhuettner/newsvendor/blob/main/preparation/student_preparation.jl)**. Here is a **[pdf version](https://github.com/frankhuettner/newsvendor/blob/main/preparation/student_preparation-Handout.pdf)**.
 - A notebook that contains **[the game](https://github.com/frankhuettner/newsvendor/blob/main/game/newsvendorgame.jl)** 
-- A notebook that allows you to **[analyze the game results](https://github.com/frankhuettner/newsvendor/blob/main/debrief/game_results.jl)**. Here is a [DEMO](https://debrief.newsvendor.games/game_results.html) (class or player selection might not work or might be very slow; **[download the repo from GitHub](https://github.com/frankhuettner/newsvendor)** and try it locally to get a better impression.)
-- A notebook that demonstrates how to **[solve the newsvendor problem](https://github.com/frankhuettner/newsvendor/blob/main/debrief/newsvendor_solution.jl)**. Here is a [DEMO](https://debrief.newsvendor.games/newsvendor_solution.html) (be patient with the demo server; it's much faster if you run it yourself locally).
+- A notebook that allows you to **[analyze the game results](https://github.com/frankhuettner/newsvendor/blob/main/debrief/game_results.jl)**. 
+- A notebook that demonstrates how to **[solve the newsvendor problem](https://github.com/frankhuettner/newsvendor/blob/main/debrief/newsvendor_solution.jl)**. 
 
 ### How I'd teach it
 
@@ -42,9 +42,7 @@ As part of this simulation, students will download Julia and install some packag
         import Pluto; Pluto.run(dismiss_update_notification=true, notebook=nb)
         end
         ```
-        3. Start Julia (e.g. in the Windows Start Menu). The Julia REPL will appear: 
-        
-        <img src="https://aws1.discourse-cdn.com/business5/uploads/julialang/original/3X/b/2/b210ef1688d324908e9217b8d413d54cdb5d8ded.png" alt="Julia REPL" width="400"/>
+        3. Start Julia (e.g. in the Windows Start Menu). The Julia REPL will appear.
         4. Rightclick into the Julia REPL window. This will paste the code that you copied above. Hit the <kbd>Enter</kbd> key to execute the code.
         5. Now wait for 10 minutes. Julia will install Pluto and download the preparation. After about 5 minutes, it opens your browser and you see fragments of the case. It will install further packages and is finished once the animations stop. Get a ☕ or 🍵 or read the case while waiting (*do **not** close the Julia window*).
         6. Close of Julia and the browser window when you're done.

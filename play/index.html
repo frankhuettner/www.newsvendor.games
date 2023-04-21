@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://www.newsvendor.games/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Newsvendor Game | Page not found</title>
+    <title>Newsvendor Game | 🎮 play</title>
     <meta name="author" content="Frank  Huettner" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Setup takes about 10 min (mostly unattendet) for installing Julia, Pluto, and some packages. It requires about 1 GB disk space." />
     <meta name="keywords" content="Julia, Newsvendor, simulation, game" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗞️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.newsvendor.games/404.html">
+    <link rel="canonical" href="https://www.newsvendor.games/play/">
     
     <!-- Dark Mode -->
     
@@ -67,8 +67,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/play/">🎮 play</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/play/">🎮 play<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/license/">🤝 license</a>
@@ -88,12 +88,95 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">🎮 play</h1>
+            <p class="post-description">Setup takes about 10 min (mostly unattendet) for installing Julia, Pluto, and some packages. It requires about 1 GB disk space.</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://www.newsvendor.games/">here</a>.</p>
+            <h5 id="1-download-julia-from-the-official-website-and-install-it-with-the-standard-settings">1. Download Julia <strong><a href="https://julialang.org/downloads/" target="_blank" rel="noopener noreferrer">from the official website</a></strong> and install it with the standard settings</h5>
+
+<h5 id="2-start-julia-eg-in-the-windows-start-menu">2. Start Julia (e.g. in the Windows Start Menu)</h5>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+    The Julia REPL (a black window) will appear. Please keep this window open until you are done with the simulation.
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+    <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/julia-repl-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/julia-repl-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/julia-repl-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/julia-repl.png" title="julia repl">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h5 id="3-copy-the-code-below">3. Copy the code below</h5>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>begin
+  # Download the notebook into a temporary directory
+  nb = download("https://raw.githubusercontent.com/frankhuettner/newsvendor/main/game/newsvendorgame.jl", joinpath(mktempdir(), "newsvendorsimulation.jl"))
+  # Install Pluto
+  import Pkg;	Pkg.add("Pluto")
+  # Start Pluto and load the notebook
+  import Pluto; Pluto.run(dismiss_update_notification=true, notebook=nb)
+end
+</code></pre></div></div>
+
+<h5 id="4-paste-the-code-into-the-julia-repl">4. Paste the code into the Julia REPL</h5>
+<div class="row justify-content-sm-center">
+       <div class="col-sm-8 mt-3 mt-md-0">
+       Ctrl+V will not work. Instead, RIGHTCLICK into the Julia REPL window. This will insert the code that you copied above. Then, hit the <kbd>Enter</kbd> key to execute the code.
+
+       </div>
+       <div class="col-sm-4 mt-3 mt-md-0">
+       <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/julia-repl-pasted-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/julia-repl-pasted-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/julia-repl-pasted-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/julia-repl-pasted.png" title="julia repl code inserted">
+
+  </picture>
+
+</figure>
+
+       </div>
+   </div>
+
+<h5 id="5-now-wait-for-10-minutes">5. Now wait for 10 minutes</h5>
+<p>Julia will install Pluto and download the simulation. 
+<strong>After about 5 minutes, it opens your browser</strong> and you see fragments of the simulation. It will install further packages and is finished once the animations stop. Get a ☕ or 🍵 or use your computer for something else while waiting (<em>do <strong>not</strong> close the Julia window</em>).</p>
+
+<h5 id="6-play-the-game-and-download-your-score-when-you-finished-the-game">6. Play the game and download your score when you finished the game</h5>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/screenshot_download-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/screenshot_download-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/screenshot_download-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/screenshot_download.png" title="example image">
+
+  </picture>
+
+</figure>
+ 
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+    When you're done (make sure having downloaded your score), you can close of Julia and the browser window.
+
+    </div>
+</div>
 
           </article>
 

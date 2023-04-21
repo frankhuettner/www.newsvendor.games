@@ -19,9 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 The game comes with a **[mini case](https://github.com/frankhuettner/newsvendor/blob/main/scenarios/cheers_1_story.md),** which puts you into the shoes of a patisserie owner. Every day, you have to make a choice about how many cakes 🍰🍥🎂 you want to produce. 
      
-<p align="center">
-Checkout the 👉<b>
- <a href='https://demo.newsvendor.games'>DEMO</a>.
+
 
 </b>     
 </p>     
